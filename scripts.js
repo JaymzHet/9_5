@@ -2,9 +2,9 @@ var withButtonClass = document.getElementsByClassName('button');
 
 //console.log(withButtonClass);
 
-var ButtonList = withButtonClass.length;
+var buttonListLenght = withButtonClass.length;
 
-for (var i=1; i <= ButtonList; i++) {
-  alert(withButtonClass[i-1].innerText);
+for (var i=0; i < buttonListLenght; i++) {
+  alert(withButtonClass[i].innerText);
 };
 
